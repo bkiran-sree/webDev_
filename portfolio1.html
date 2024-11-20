@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Battula Kiran Sree | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    /* General Styles */
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      color: #333;
+    }
+
+    header, footer {
+      background: #121212;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    header h1 {
+      font-size: 3em;
+      margin: 0;
+      letter-spacing: 2px;
+    }
+
+    header p {
+      font-size: 1.2em;
+      margin-top: 10px;
+      color: #bbbbbb;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    section {
+      margin-bottom: 50px;
+    }
+
+    h2 {
+      font-size: 2em;
+      margin-bottom: 20px;
+      color: #333;
+      text-align: center;
+    }
+
+    /* About Section */
+    #about {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+    }
+
+    #about img {
+      width: 300px;
+      height: 300px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    #about p {
+      font-size: 1.2em;
+    }
+
+    /* Projects Section */
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+    }
+
+    .project-card {
+      background: #f9f9f9;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .project-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .project-card h3 {
+      font-size: 1.5em;
+      margin: 15px;
+    }
+
+    .project-card p {
+      padding: 0 15px 15px;
+      color: #555;
+    }
+
+    .project-card a {
+      display: block;
+      padding: 10px 15px;
+      text-align: center;
+      background: #4facfe;
+      color: white;
+      text-decoration: none;
+      border-top: 1px solid #ddd;
+    }
+
+    .project-card a:hover {
+      background: #0084ff;
+    }
+
+    /* Footer */
+    footer p {
+      margin: 0;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Battula Kiran Sree</h1>
+    <p>AI-ML Enthusiast | Developer | Data Analyst</p>
+  </header>
+
+  <div class="container">
+    <!-- About Section -->
+    <section id="about">
+      <img src="C:\Users\bkira\Downloads\WhatsApp Image 2024-11-20 at 6.38.01 PM.jpeg" alt="Battula Kiran Sree">
+      <div>
+        <h2>About Me</h2>
+        <p>
+          I am a B.Tech student in Computer Science and Engineering at the Institute of Aeronautical Engineering with a CGPA of 9.17. 
+          Passionate about AI-ML, data analysis, and problem-solving. I thrive in projects where I can apply my technical skills to develop innovative solutions.
+        </p>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+      <h2>Education</h2>
+      <ul>
+        <li><strong>Institute of Aeronautical Engineering:</strong> B.Tech in Computer Science and Engineering, CGPA: 9.17</li>
+        <li><strong>Omega Junior College for Girls:</strong> MPC, 97.4%</li>
+        <li><strong>Vijaya High School:</strong> State Board, CGPA: 10</li>
+      </ul>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+      <h2>Experience</h2>
+      <ul>
+        <li>
+          <strong>AICTE - Edu Skills Google AI-ML Virtual Internship:</strong> Apr 2024 – Jun 2024
+          <p>Developed ML models for image classification using TensorFlow and analyzed large datasets for improved model accuracy.</p>
+        </li>
+        <li>
+          <strong>NSIC Technical Services Centre - ECIL:</strong> Jun 2023 – Jul 2023
+          <p>Proficient in data analysis with Pandas, NumPy, and Matplotlib. Worked on projects using real-world datasets.</p>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="projects">
+        <div class="project-card">
+          <img src="C:\Users\bkira\OneDrive\Desktop\tkinter\pw .png" alt="Password Generator">
+          <h3>Password Generator</h3>
+          <p>
+            A Python-based GUI application for generating secure and random passwords using the Tkinter library.
+          </p>
+          <a href="https://github.com/bkiransree/CODSOFT_PYTH/blob/02f189e24d3473d201e590fc4d118405896b0c1b/password%20generator.py" target="_blank">View on GitHub</a>
+        </div>
+        <div class="project-card">
+          <img src="C:\Users\bkira\OneDrive\Desktop\tkinter\weather.png" alt="Weather Forecast">
+          <h3>Weather Forecast</h3>
+          <p>
+            An interactive application displaying real-time weather data using Python's Tkinter and OpenWeatherMap API.
+          </p>
+          <a href="https://github.com/bkiransree/CODSOFT_PYTH/blob/02f189e24d3473d201e590fc4d118405896b0c1b/weather%20forecast.py" target="_blank">View on GitHub</a>
+        </div>
+        <div class="project-card">
+          <img src="C:\Users\bkira\OneDrive\Desktop\tkinter\sms.png" alt="Spam SMS Detection">
+          <h3>Spam SMS Detection</h3>
+          <p>
+            A machine learning-based project for detecting spam messages using Python and NLP techniques.
+          </p>
+          <a href="https://github.com/bkiran-sree/CODSOFT/blob/main/TASK-4%20SPAM%20SMS%20DETECTION.ipynb" target="_blank">View on GitHub</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>Programming Languages: Python, Java, C, MySQL</li>
+        <li>Web Technologies: HTML, CSS, JavaScript, Bootstrap</li>
+        <li>Libraries/Frameworks: TensorFlow (beginner)</li>
+        <li>Tools: VS Code</li>
+      </ul>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications">
+      <h2>Certifications</h2>
+      <ul>
+        <li>Mastering Microsoft Azure: Industry-Focused Cloud Computing (Oct 2024)</li>
+        <li>Google Virtual Intern on AI-ML (Aug 2024)</li>
+        <li>CodSoft - Machine Learning (May 2024) and Basic Python (Jun 2024)</li>
+      </ul>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2024 Battula Kiran Sree. All rights reserved.</p>
+  </footer>
+</body>
+</html>
